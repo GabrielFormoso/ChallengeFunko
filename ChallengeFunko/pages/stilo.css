@@ -1,0 +1,77 @@
+
+header{
+    background-color: black;
+}
+
+/* navbar */ 
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: #FFFFFF;
+    ;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.nav-links li{
+    margin: 0 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#banner {
+        background-image: url(./IMG/funkos-banner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 498px;
+        filter: blur(1px);
+        margin-top: 144px;
+        
+    
+    }
+.nuevos-ingresos{
+    width: 50%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    border: 2px black solid;
+}
+p::after{content:" ____________________________________________";
+    color: 
+    #FF3333;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    
+}
